@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-**[<a href="https://arxiv.org/pdf/2305.06587">Paper Page</a>]**
+[<a href="https://arxiv.org/pdf/2305.06587">Paper Page</a>]
 </div>
 
 ---
@@ -19,15 +19,15 @@
   title={Towards Expressive Spectral-Temporal Graph Neural Networks for Time Series Forecasting},
   author={Ming Jin and Guangsi Shi and Yuan-Fang Li and Bo Xiong and Tian Zhou and Flora D. Salim and Liang Zhao and Lingfei Wu and Qingsong Wen and Shirui Pan},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  year={2023}
+  year={2025}
 }
 }
 ```
 
 ## Introduction
 Existing message-passing-based spatio-temporal GNNs (MP-STGNNS) often struggle with capturing complex, dynamic relationships in 
-time series data, and their limitations stem from a lack of expressiveness, which we define as the ability of a model 
-to accurately represent a wide range of temporal and spatial dependencies within the data.
+time series data, and their limitations stem from a lack of expressiveness, which we define as the ability to accurately 
+represent a wide range of temporal and spatial dependencies within the data.
 
 <p align="center">
 <img src="./figures/figure1.png" height = "120" alt="" align=center />
@@ -47,6 +47,8 @@ a theoretical blueprint for designing spatial and temporal modules in spectral d
 Building on these insights and to demonstrate how powerful spectral-temporal GNNs are based on our framework,
 we propose a simple instantiation named Temporal Graph Gegenbauer Convolution (TGGC), which significantly outperforms most
 existing models with only linear components and shows better model efficiency.
+
+** 📦 This repository contains the code for the basic implementation of TGGC **
 
 ## Requirements
 
